@@ -1,0 +1,7 @@
+intents.json
+/__pycache__/
+/standalone-frontend/
+/venv/
+model.py
+nltk_utils.py
+train.py
