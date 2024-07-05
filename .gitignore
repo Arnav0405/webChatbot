@@ -1,7 +1,7 @@
 intents.json
 /__pycache__/
 /standalone-frontend/
-/venv/
+/chatbotEnv/
 model.py
 nltk_utils.py
 train.py
