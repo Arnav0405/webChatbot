@@ -1,5 +1,3 @@
-from fastapi import FastAPI, HTTPException, Form
-
 from langchain_chroma import Chroma
 from langchain.chains import create_history_aware_retriever
 from langchain.chains import create_retrieval_chain
@@ -23,7 +21,7 @@ retriever = vectorStore.as_retriever(
         #have to work on way
         #To make my search results rely mostly on the documents 
         #Rarely on Search results by the LLM
-        "score_threshold": 0.28
+        "score_threshold": 0.30
     },
 )
 
@@ -52,7 +50,7 @@ system_prompt = (
 Do not answer any question not related to career development.
 If the question's answer is not available in the database say
 you don't know. Or if you don't know the answer to the
-question say you don't know.'''
+question say you don't know. Write maximum one paragraph. '''
     "\n\n"
     "{context}"
 )
