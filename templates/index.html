@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Pathways Hub</title>
+</head>
+<body>
+    <nav>
+        <div class="site-name">Career Pathways Hub</div>
+        <div>
+            <a href="#fields">Fields</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>GET READY TO DEBUG YOUR CAREER PATH WITH US</h1>
+            <p>-where every breakpoint leads to SUCCESS!</p>
+        </div>
+    </div>
+    <section class="explore-section">
+        <h2>Explore Career Opportunities With Us!</h2>
+        <h3>Level up your tech journey like a PRO</h3>
+        <div class="explore-items">
+            <a href="sdev.html" class="explore-item"><img src="media/1.png" alt="sdev"></a>
+            <a href="aiml.html" class="explore-item"><img src="media/2.png" alt="aiml"></a>
+            <a href="link3" class="explore-item"><img src="media/3.png" alt="Image 3"></a>
+            <a href="link4" class="explore-item"><img src="media/4.png" alt="Image 4"></a>
+            <a href="link5" class="explore-item"><img src="media/5.png" alt="Image 5"></a>
+            <a href="link6" class="explore-item"><img src="media/6.png" alt="Image 6"></a>
+            <a href="link7" class="explore-item"><img src="media/7.png" alt="Image 7"></a>
+        </div>
+    </section>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button>Chat<img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
+

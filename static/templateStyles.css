@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Silver';
+    src: url('media/Silver.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'RobotoSerif', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #ffffff;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    max-width: 1210px;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .site-name {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+}
+nav a {
+    color: white;
+    margin-left: 1em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #66fcf1;
+}
+/* Header */
+.header {
+    width: 100%;
+    max-width: 1199.98px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Rectangle Box and its text */
+.curved_rectangle {
+    width: 80%;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.curved_rectangle  p {
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+/* Image Carousel */
+
+#containerImage1 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+
+}
+#containerImage2 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage3 {
+    background:linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage4 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage5 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage6 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage7 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage8 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+#containerImage9 {
+    background: linear-gradient(to right, #EC5EE6, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* PLEASE DO SOMETHING USEFUL ABOUT HEIGHT */
+    height: 390px;
+}
+
+
+/* Job Duties */
+.job_duties {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+.job_duties h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-left: 10%;
+}
+#job_duties_card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    align-items: start;
+}
+
+.flip-card {
+    background-color: transparent;
+    /* Make the height resposive similar to the carousels */
+    height: 300px;
+    perspective: 1000px;
+    align-content: flex-start;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 #7ae8e6;
+    border: #23DBD7, 3px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5%;
+    color: white;
+    padding: 8%;
+    
+  }
+  
+  .flip-card-front img {
+    width:145px;
+    height:162px; 
+    background-color: #23DBD7;
+    border-radius: 45%;
+  }
+  
+  .flip-card-back {
+    background-color: #363738;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back img {
+    width:115px;
+    height:132px;
+    align-self: flex-start;
+    background-color: #23DBD7;
+    border-radius: 45%; 
+  }
+
+  /* How To Become One */
+
+  .how_to {
+    width: 80%;
+    height: 720px;
+    margin: 1.2em;
+    flex-direction: column;
+    background-image: url(media/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+
+    .how_to h2 {
+        font-family: 'Squada One';
+        font-size: 130px;
+        font-weight: 600;
+        padding-left: 10%;
+        align-self: flex-start;
+    }
+
+  svg {
+    width: 100%; 
+    height: 100%;
+  }
+  .rectangle_svg {
+    fill:rgb(0,0,255);
+    transition: all 0.5s;
+    width: 300px;
+    height: 100px;
+  }
+
+  .rectangle_svg:hover {
+    fill: white;;
+    transform: scaleY(1.5);
+    }
