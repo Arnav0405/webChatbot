@@ -1,8 +1,7 @@
 # Chatbot Deployment with FastAPI and JavaScript LangChain
 
-I have used a youtube tutorial to get the JS and HTML part
+Made a Vector database based on my pdf files. Implemented the Vector Database on this Ollama based LLM that is running on your system, but it's completely free unlike ChatGPT or any other big compan one! 
 
-But the tutorial was using Flask, which work somewhat slower than FastAPI and FastAPI works well with langchain hence, I had to convert most of the Flask code to FastAPI code. But FastAPI is shit, so I re-wrote it to Flask.
 
 ## Modules and Pre-installation
 Do install all the requirements from requirements.txt file if I have made one. Also we need to install Ollama along with Gemma:2b for the LLM to work.
