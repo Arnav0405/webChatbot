@@ -21,10 +21,6 @@ https://ollama.com/download
 python3 app.py 
 '''
 
-## The tutorial I used 
-[![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
-[https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
-
 ## Note
 Do install ollama before anything else as it is 1.7gb.
 
