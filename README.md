@@ -1,4 +1,4 @@
-# Chatbot Deployment with FastAPI and JavaScript LangChain
+# Chatbot Building & Deployment with FastAPI and JavaScript LangChain
 
 Made a Vector database based on my pdf files. Implemented the Vector Database on this Ollama based LLM that is running on your system, but it's completely free unlike ChatGPT or any other big compan one! 
 
